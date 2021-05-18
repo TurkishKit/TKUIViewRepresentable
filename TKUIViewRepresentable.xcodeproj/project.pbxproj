@@ -11,6 +11,7 @@
 		105AE19826539E1500418AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105AE19726539E1500418AA9 /* ContentView.swift */; };
 		105AE19A26539E1600418AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105AE19926539E1600418AA9 /* Assets.xcassets */; };
 		105AE19D26539E1600418AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105AE19C26539E1600418AA9 /* Preview Assets.xcassets */; };
+		105AE1A526539E3500418AA9 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105AE1A426539E3500418AA9 /* UIViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		105AE19926539E1600418AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		105AE19C26539E1600418AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		105AE19E26539E1600418AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105AE1A426539E3500418AA9 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				105AE19526539E1500418AA9 /* TKUIViewRepresentableApp.swift */,
 				105AE19726539E1500418AA9 /* ContentView.swift */,
+				105AE1A426539E3500418AA9 /* UIViewRepresentable.swift */,
 				105AE19926539E1600418AA9 /* Assets.xcassets */,
 				105AE19E26539E1600418AA9 /* Info.plist */,
 				105AE19B26539E1600418AA9 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				105AE19826539E1500418AA9 /* ContentView.swift in Sources */,
 				105AE19626539E1500418AA9 /* TKUIViewRepresentableApp.swift in Sources */,
+				105AE1A526539E3500418AA9 /* UIViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +276,7 @@
 				DEVELOPMENT_TEAM = C4BB468227;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TKUIViewRepresentable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +298,7 @@
 				DEVELOPMENT_TEAM = C4BB468227;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TKUIViewRepresentable/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
